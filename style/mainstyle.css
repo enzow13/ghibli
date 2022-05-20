@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Div: .lines-title */
+.lines-title {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+}
+#ghibli-title {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 102px;
+    color: #0D0D0D;
+    animation: getup 2s;
+    transition-timing-function: ease-out;
+}
+.line-title {
+    border: 2px solid #0D0D0D;
+    border-radius: 60px;
+    width: 600px;
+    height: 0px;
+    animation: grow 2s;
+    transition-timing-function: ease;
+}
+
+/* Get Up Animation 
+@keyframes getup {
+    0% {
+        margin-bottom: 50px;
+    }
+    100% {
+        margin-bottom: 0px;
+    }
+}
+*/
+
+/* Line Animation */
+@keyframes grow {
+    0% {
+        width: 10px;
+    }
+    100% {
+        width: 600px;
+    }
+}
+
+/* Header */
+header {
+    padding: 10px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 123px;
+    margin-left: 53px;
+}
+.topic-header {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #0D0D0D;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.topic-header:hover {
+    text-decoration-line: underline;
+    color: #424242;
+}
+
+/* Pre animation names */
+#a1-anim{ 
+    animation: a1_anim 3s;
+}
+#a2-anim {
+    animation: a2_anim 3s;
+}
+#a3-anim{
+    animation: a3_anim 3s;
+}
+#a4-anim{
+    animation: a4_anim 3s;  
+}
+#a5-anim{
+    animation: a5_anim 3s;  
+}
+/* Animation Topic Header */
+@keyframes a1_anim {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+}
+@keyframes a2_anim {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+@keyframes a3_anim {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+}
+@keyframes a4_anim {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+}
+@keyframes a5_anim {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Section: #main-content */
+#main-content {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    font-family: 'Poppins';
+}
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-upper-content {
+    text-align: right;
+}
+#h1-title {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 150px;
+    color: #0D0D0D;
+}
+#description-under_h1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.container-btn {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 246px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-learn_more {
+    width: 178px;
+    height: 53px;
+    border: 2px solid #0D0D0D;
+    background-color: transparent;
+    border-radius: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0D0D0D;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#btn-learn_more:hover {
+    color: #424242;
+    border-color: #424242;
+}
+/*
+#bg_img-btn {
+    position: absolute;
+    left: 141.82px;
+    top: 604px;
+    z-index: -100;
+}
+*/
