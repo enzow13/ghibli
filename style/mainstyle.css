@@ -150,7 +150,7 @@ header ul {
 
 /* Section: #main-content */
 #main-content {
-    padding-top: 60px;
+    padding: 60px 0px 60px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +191,7 @@ header ul {
     width: 178px;
     height: 53px;
     border: 2px solid #0D0D0D;
-    background-color: transparent;
+    background-color: #FFF;
     border-radius: 60px;
     font-weight: 400;
     font-size: 20px;
