@@ -161,9 +161,11 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 .left-upper-content {
     text-align: right;
+    margin-bottom: 12px;
 }
 #h1-title {
     font-weight: 500;
